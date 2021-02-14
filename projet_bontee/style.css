@@ -1,0 +1,313 @@
+body {
+    font-family: "Oswald";
+    letter-spacing: 0.6px;
+    color: #000;
+}
+
+header {
+    background: url("images/accueil1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+}
+
+.text-intro {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.pre-txt {
+    font-size: 40px;
+    margin: 0;
+    color: #2f2d2d;
+
+}
+
+
+
+
+
+h1{
+    font-size: 85px;
+    color: #0B72FF;
+    font-family: "Kaushan script";
+    font-weight: 700;
+}
+
+h2{
+    font-size: 24px;
+    color: #0B72FF!important;
+    
+}
+
+/* navigation */
+
+#main-nav {
+    transition: all 0.4s ease;
+}
+
+.navbar-brand{
+    font-size: 30px!important;
+    font-family: "Kaushan script";
+    transition: all 0.4s ease;
+}
+
+.navbar-brand img {
+    height: 55px;
+    width: 155px;
+}
+
+.navbar a {
+    font-weight: 700;
+    transition: all 0.4s ease;
+}
+
+.navbar-opaque .navbar-brand img{
+    height: 35px!important;
+    width: 135px!important;
+    transition: all 0.4s ease;
+}
+
+.navbar.opaque a {
+    font-size: 18px;
+    transition: all 0.4s ease;
+}
+
+.navbar.opaque .navbar-brand img {
+    height: 35px!important;
+    width: 135px!important;
+    transition: all 0.4s ease;
+}
+
+.part1{
+    background: #0B72FF!important;
+    border: none!important;
+}
+
+/* a propos */
+
+#apropos {
+    margin-top: 75px;
+    padding-bottom: 75px;
+    border-bottom: 1px dashed #2f2d2d;
+}
+
+/* trois icones */
+
+#icones {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* première bannière */
+
+#ban1 {
+    position: relative;
+    background: url('images/banniere1.jpg');
+    background-position: right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+/* gallery */
+
+#galerie{
+    padding-bottom: 100px;
+}
+
+.h2photos {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: "Kaushan script";
+    font-size: 50px;
+}
+
+#galerie .container p{
+    padding-bottom: 40px;
+}
+
+/* seconde banniere */
+
+#ban2 {
+    position: relative;
+    background: #C4C4C4;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    text-align: center;
+}
+
+#carouselContent {
+    margin-top: 70px;
+    font-size: 24px;
+    color: #000;
+    font-weight: 400;
+}
+
+/* cartes */
+
+.offreH{
+    font-size: 50px;
+    padding-bottom: 50px;
+    padding-top: 80px;
+    font-family: 'Kaushan script';
+}
+
+#cartes{
+    padding: 50px 0 100px 0;
+}
+
+.threeCards {
+    width: 250px;
+    height: 490px;
+    margin: 30px auto;
+    position: relative;
+    transition: 0.2s ease-in;
+    box-shadow: 0px 10px 30px #000;
+}
+
+.threeCards:hover {
+    transform: scale(1.1);
+}
+
+.header {
+    height: 200px;
+    width: 250px;
+    position: relative;
+    background: rgba(216, 216, 216, 0.5);
+}
+
+.header h2 {
+    margin: 0;
+    position: relative;
+    top: 130px;
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 15px;
+}
+
+#spanPrix {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.type {
+    height: 120px;
+    width: 250px;
+    background: rgba(2,2,2,0.5);
+    clip-path: polygon(0 0,100% 0, 100% 75%, 0 100%);
+    position: absolute;
+    top: 0;
+}
+
+.type h2 {
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    font-family: 'Kaushan script';
+    font-size: 30px;
+    position: relative;
+    top: 30px;
+}
+.type1 {
+    color: #fff!important;
+}
+
+.details {
+    background: white;
+    height: 40px;
+    text-align: center;
+    line-height: 20px;
+    font-family: 'Lato';
+    font-weight: bold;
+    transition: all 0.2s ease-in;
+}
+
+.details:hover {
+    background: rgba(181, 208, 230, 0.1);
+}
+
+#btn {
+    background: #fff;
+    height: 80px;
+}
+
+#btn a {
+    text-decoration: none;
+    font-family: 'Oswald';
+    height: 50px;
+    width: 120px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    line-height: 50px;
+    position: relative;
+    top: 10px;
+    border-radius: 30px;
+    border: 1px solid #0B72FF;
+    transition: all 0.2s ease-in;
+}
+
+#btn a:hover {
+    background: #0B72FF;
+    color: #fff;
+}
+
+.nav-link {
+    color: #2F2D2D!important;
+}
+
+/* progress */
+
+.progress-bar {
+    /* background: #2f2d2d!important; */
+}
+
+.progress {
+    background: #fff!important;
+}
+
+#progress {
+    padding-top: 100px;
+    background: #EBEBEB;
+    padding-bottom: 80px;
+}
+
+/* clients */
+
+.img-client{
+    width: 200px;
+    min-height: 200px;
+}
+
+#clients {
+    border-top: 1px dashed #000;
+    border-bottom: apx solid #000;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+/* contact */
+
+.contact {
+    font-size: 50px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    font-family: 'Kaushan script';
+    color: #fff!important;
+}
+
+.text-contact {
+    color: #fff;
+}
+
+.btn-envoyer {
+    background: #C4C4C4!important;
+    color: #343A40!important;
+}
+
+.subtitle {
+    color: #343A40!important;
+}

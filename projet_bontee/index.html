@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base </title>
+    <!-- css ekko -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+    <!-- css boostrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/433b90eeeb.js" crossorigin="anonymous"></script>
+    <!-- googlefont -->
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lato:wght@100&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet"> 
+    <!-- custo css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- header -->
+    <header id="top">
+        <div class="container">
+            <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top" id="main-nav">
+                <div class="container">
+                    <a href="index.html" class="navbar-brand">
+                       <img src="./images/logo.jpg" alt="logo base">
+                    </a>
+                    <!-- button à derouler le menu toggler -->
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- la cible de notre buton pour derouler le menu -->
+
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                       <ul class="navbar-nav ml-auto">
+                           <li class="nav-item mr-1">
+                               <a href="#top" class="nav-link">Accueil</a>
+                           </li>
+
+                           <li class="nav-item mr-1">
+                               <a href="#apropos" class="nav-link">Concept</a>
+                           </li>
+
+                           <li class="nav-item mr-1">
+                               <a href="#galerie" class="nav-link">Nos projets</a>
+                           </li>
+
+                           <li class="nav-item mr-1">
+                               <a href="#prix" class="nav-link">Tarrifs</a>
+                           </li>
+
+                           <li class="nav-item mr-1">
+                               <a href="#contact" class="nav-link">Contact</a>
+                           </li>
+                           <li class="nav-item mr-1">
+                            <a href="#" class="nav-link">
+                                <i class="fas fa-user"></i>
+                                Mon compte
+                            </a>
+                        </li>
+                       </ul>
+                    </div>
+
+                    <!-- fin collapse nav -->
+                </div>
+            </nav>
+
+            <div class="text-intro">
+                <div class="pre-txt font-italic">L'expertise assurée</div>
+                <h1>Base Ascenseurs</h1>
+                <a href="#" class= "btn btn-dark mt-3 part1">Je m'abonnes</a>
+                <a href="#" class= "btn btn-outline-dark mt-3 part2">Nos projets</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- apropos -->
+
+    <section id="apropos">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="subtitle">A propos</h2>
+                    <hr>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci excepturi illum laboriosam vitae omnis inventore modi ut. Laborum dolor eius expedita. Porro eius suscipit, consequatur enim doloremque sit ex tempore.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <div class="accordion" id="accordionExemple">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class ="mb-0">
+                                    <button class="btn" type="button" data-toggle="collapse" data-target="#collapseOne">
+                                        <i class ="fas fa-chevron-right"></i>
+                                        &nbsp;Les Details
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseOne" class="collapse show" data-parent="#accordionExemple">
+                               <div class="card-body">
+                                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto assumenda reiciendis, 
+                                   error laborum vel dignissimos sequi, tenetur enim consequatur odit odio in cupiditate, 
+                                   praesentium exercitationem.
+                               </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class ="mb-0">
+                                    <button class="btn" type="button" data-toggle="collapse" data-target="#collapsetwo">
+                                        <i class ="fas fa-chevron-right"></i>
+                                        &nbsp;Plus des details
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapsetwo" class="collapse" data-parent="#accordionExemple">
+                               <div class="card-body">
+                                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto assumenda reiciendis, 
+                                   error laborum vel dignissimos sequi, tenetur enim consequatur odit odio in cupiditate, 
+                                   praesentium exercitationem.
+                               </div>
+                            </div>
+                        </div>
+
+                        <!-- <div class="card"> -->
+                            <!-- <div class="card-header"> -->
+                                <!-- <h5 class ="mb-0"> -->
+                                    <!-- <button class="btn" type="button" data-toggle="collapse" data-target="#collapsethree"> -->
+                                        <!-- <i class ="fas fa-chevron-right"></i> -->
+                                        <!-- &nbsp;Plus ... -->
+                                    <!-- </button> -->
+                                <!-- </h5> -->
+                            <!-- </div> -->
+                            <!-- <div id="collapsethree" class="collapse" data-parent="#accordionExemple"> -->
+                               <!-- <div class="card-body"> -->
+                                   <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto assumenda reiciendis,  -->
+                                   <!-- error laborum vel dignissimos sequi, tenetur enim consequatur odit odio in cupiditate,  -->
+                                   <!-- praesentium exercitationem. -->
+                               <!-- </div> -->
+                            <!-- </div> -->
+                        <!-- </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section 3 icones -->
+
+    <!-- <section id="icones"> -->
+        <!-- <div class="container"> -->
+            <!-- <div class="row"> -->
+                <!-- <div class="col-md-4"> -->
+                    <!-- <h2 class="subtitle"><i class = "fab fa-android"></i>&nbsp;Android</h2> -->
+                    <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing -->
+                       <!-- elit. Natus culpa eum perspiciatis corporis commodi -->
+                       <!-- sequi sit blanditiis quas at consequatur. -->
+                    <!-- </p> -->
+                <!-- </div> -->
+
+                <!-- <div class="col-md-4"> -->
+                    <!-- <h2 class="subtitle"><i class = "fas fa-archway"></i>&nbsp;Boutique</h2> -->
+                    <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing -->
+                       <!-- elit. Natus culpa eum perspiciatis corporis commodi -->
+                       <!-- sequi sit blanditiis quas at consequatur. -->
+                    <!-- </p> -->
+                <!-- </div> -->
+
+                <!-- <div class="col-md-4"> -->
+                    <!-- <h2 class="subtitle"><i class = "fas fa-atom"></i>&nbsp;Tech</h2> -->
+                    <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing -->
+                       <!-- elit. Natus culpa eum perspiciatis corporis commodi -->
+                       <!-- sequi sit blanditiis quas at consequatur. -->
+                    <!-- </p> -->
+                <!-- </div> -->
+            <!-- </div> -->
+        <!-- </div> -->
+    <!-- </section> -->
+   
+    <!-- première bannière -->
+
+    <section id="ban1" class="py-2">
+       <div class="container my-5">
+           <h2 class="pb-3" class="subtitle">Etes-vous pret à commencer?</h2>
+           <p class="text-dark d-none d-md-block">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nemo inventore illum! In, assumenda! Autem.
+           </p>
+           <a href="#" class="btn btn-primary">Réjoignez-nous</a>
+       </div>
+
+    </section>
+
+    <!-- galerie -->
+
+    <section id="galerie">
+        <div class="container">
+            <h2 class="text-center h2photos">Nos réalisations</h2>
+            <p class="text-center"></p>
+
+
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <div class="row mb-3">
+                        
+                            <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" 
+                                data-gallery="example-gallery" class="col-sm-4">
+                                <img src="https://unsplash.it/1200/768.jpg?image=251" class="img-fluid" alt="image portfolio">
+                            </a>
+                            <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" 
+                               data-gallery="example-gallery" class="col-sm-4">
+                               <img src="https://unsplash.it/1200/768.jpg?image=252" class="img-fluid" alt="image portfolio">
+                            </a>
+                            <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" 
+                               data-gallery="example-gallery" class="col-sm-4">
+                               <img src="https://unsplash.it/1200/768.jpg?image=253" class="img-fluid" alt="image portfolio">
+                            </a>
+                    
+                    </div>
+
+                    <div class="row mb">
+    
+                        <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" 
+                            data-gallery="example-gallery" class="col-sm-4">
+                            <img src="https://unsplash.it/1200/768.jpg?image=254" class="img-fluid" alt="image portfolio">
+                        </a>
+                        <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox" 
+                           data-gallery="example-gallery" class="col-sm-4">
+                           <img src="https://unsplash.it/1200/768.jpg?image=255" class="img-fluid" alt="image portfolio">
+                        </a>
+                        <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox" 
+                           data-gallery="example-gallery" class="col-sm-4">
+                           <img src="https://unsplash.it/1200/768.jpg?image=256" class="img-fluid" alt="image portfolio">
+                        </a>
+                                    
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- seconde banniere -->
+
+    <section id="ban2" class="py-2">
+       <div class="container">
+           <div id="carouselContent" class="carousel slide" data-ride="carousel">
+               <div class="carousel-inner" role="listbox">
+                   <div class="carousel-item active text-center p-4">
+                       <p class="font-italic">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                   </div>
+
+                   <div class="carousel-item text-center p-4">
+                    <p class="font-italic">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+
+               </div>
+           </div>
+       </div>
+    </section>
+
+    <!-- cards -->
+
+    <section id="prix">
+        <h2 class="text-center offreH">Nos Offres</h2>
+        <hr>
+        <div id="cartes" class="container">
+            <div class="row justify-content-center">
+               
+               <div class="col-lg-4">
+                   <div class="threeCards">
+                       <div class="header">
+                           <h2><span id="spanPrix">39.99€</span>/mois</h2>
+                           <div class="type">
+                               <h2 class="type1">Particulier</h2>
+                           </div>
+                       </div>
+                          
+                       <div class="details"> lorem</div>
+                       <div class="details"> lorem</div>
+                       <div class="details"> lorem bon</div>
+                       <div class="details">3 lorem</div>
+                       <div id="btn"><a href="#">S'inscrire</a></div>
+                   </div>
+               </div>
+
+               <div class="col-lg-4">
+                <div class="threeCards">
+                    <div class="header">
+                        <h2><span id="spanPrix">79.99€</span>/mois</h2>
+                        <div class="type">
+                            <h2 class="type1">Professionnel</h2>
+                        </div>
+                    </div>
+                    <div class="details"> lorem</div>
+                    <div class="details">lorem</div>
+                    <div class="details"> lorem</div>
+                    <div class="details">lorem</div>
+                    <div id="btn"><a href="#">lorem</a></div>
+                </div>
+            </div>
+
+            <!-- <div class="col-lg-4">
+                <div class="threeCards">
+                    <div class="header">
+                        <h2><span id="spanPrix">9.99€</span>/mois</h2>
+                        <div class="type">
+                            <h2>Particulier</h2>
+                        </div>
+                    </div>
+                    <div class="details"> je suis gentil</div>
+                    <div class="details"> stockage</div>
+                    <div class="details"> hulainement bon</div>
+                    <div class="details">3 noms de domaines</div>
+                    <div class="btn"><a href="#">S'inscrire</a></div>
+                </div>
+            </div> -->
+
+            </div>
+        </div>
+    </section>
+
+    <!-- section progress -->
+
+   <section id="progress">
+       <div class="container text-center">
+        <h2 class="subtitle">Notre expertise</h2>
+           <div class="row">
+
+            <div class="col-md-6 competences">
+                
+                <hr>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate eos id ab consequuntur, 
+                    consequatur quas voluptates sit, labore temporibus amet voluptatibus iusto consectetur, incidunt vitae.
+                 </p>
+            </div>
+            <div class="col-md-6 pt-1">
+                <p class="m-0">Démontage</p>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 99%"></div>
+                </div>
+                <p class="m-0">Montage</p>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 99%"></div>
+                </div>
+                <p class="m-0">suivie</p>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 99%"></div>
+                </div>
+            </div>
+
+           </div>
+       </div>
+   </section>
+
+   <!-- clients -->
+
+   <section id="clients">
+       <div class="container text-center">
+        <h2 class="subtitle">Ils nous font confiance</h2>
+           <div class="row">
+               
+               <div class="col-md-3 col-sm-6 text-center">
+                   <a href="">
+                       <img src="./images/logo.jpg"  class="img-client" alt="logo clients">
+                   </a>
+               </div>
+
+               <div class="col-md-3 col-sm-6 text-center">
+                <a href="">
+                    <img src="./images/logo.jpg" class="img-client"alt="logo clients">
+                </a>
+            </div>
+
+            <div class="col-md-3 col-sm-6 text-center">
+                <a href="">
+                    <img src="./images/logo.jpg" class="img-client"alt="logo clients">
+                </a>
+            </div>
+
+            <div class="col-md-3 col-sm-6 text-center">
+                <a href="">
+                    <img src="./images/logo.jpg" class="img-client"alt="logo clients">
+                </a>
+            </div>
+           </div>
+       </div>
+   </section>
+
+   <section id="contact" class="bg-dark py-5">
+       <div class="container text-center">
+           <div class="row">
+               <div class="col-lg-12">
+                   <h2 class="contact">Contactez-nous</h2>
+                   <p class="text-contact">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus voluptatum voluptate velit, nisi vero dolor!</p>
+
+                   <form action="">
+                       <div class="input-group input-group-lg mb-3">
+                           <div class="input-group-prepend">
+                               <span class="input-group-text">
+                                   <i class="fas fa-user"></i>
+                               </span>
+                           </div>
+                           <input type="text" class="form-control" placeholder="nom">
+                       </div>
+
+                       <div class="input-group input-group-lg mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">
+                                <i class="fas fa-envelope"></i>
+                            </span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="e-mail">
+                    </div>
+
+                    <div class="input-group input-group-lg mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">
+                                <i class="fas fa-pencil-alt"></i>
+                            </span>
+                        </div>
+                        <textarea rows="5" class="form-control" placeholder="Message"></textarea>
+                    </div>
+
+                    <input type="submit" value="Envoyer" class="btn-primary btn-block btn-lg btn-envoyer">
+                   </form>
+               </div>
+           </div>
+       </div>
+   </section>
+
+
+
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- jsbootstrap -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!--  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <!-- js ekko -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+    <!-- custom script -->
+    <script src="App.js"></script>
+</body>
+</html>
